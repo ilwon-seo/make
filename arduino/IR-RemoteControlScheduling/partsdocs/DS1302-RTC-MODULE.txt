@@ -1,0 +1,26 @@
+Description:
+
+ 
+
+    31 x 8 RAM for scratchpad data storage
+    Serial I/O interface for minimum pin count
+    Wide Working Voltage: 2.0 ~ 5.5V
+    Single-byte and multi-byte transmission for clock or RAM data read / write
+    TTL-compatible (Vcc=5V)
+    Working Temperature: 0 to +70 Deg C
+    32.768KHz crystal oscillator
+    Equipped with a 260mAh CR2032 button battery, not rechargeable
+    Overall Size: Approx. 44 x 23 x 11mm
+
+Wiring:
+
+    Vcc - +5V / 3.3V
+    GND - GND
+    CLK - P01
+    DAT - P02
+    RST - P00
+
+Note:
+
+    Do not reverse VCC and GND, or it will cause damage
+    It requires a pull-up resistor for P0 port of 51 MCU, if without, you can connect the data cable to other terminal
