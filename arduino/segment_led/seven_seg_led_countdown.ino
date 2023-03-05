@@ -1,7 +1,13 @@
 #include "SevSeg.h"
 //
 // https://www.circuitbasics.com/arduino-7-segment-display-tutorial/
-//
+////////////////////////////////////////////////////////////
+// Parts
+//----------------------------------------------------------
+// 1k resister X 1
+// Common Cathode Displays 7-seg with dot X 1 (PART:5161AS)
+// library SevSeg (MIT License, https://github.com/DeanIsMe/SevSeg)
+////////////////////////////////////////////////////////////
 SevSeg sevseg;
 int counter[10] = { 9, 8, 7, 6, 5, 4, 3, 2, 1, 0 };
 unsigned long delayMs = 1000;
